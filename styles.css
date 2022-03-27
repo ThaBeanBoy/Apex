@@ -34,6 +34,7 @@ body {
 
   display: flex;
   flex-direction: column;
+  letter-spacing: 5px;
 }
 
 section.top {
