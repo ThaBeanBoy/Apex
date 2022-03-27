@@ -1,0 +1,27 @@
+/* Responsiveness for the top */
+@media only screen and (max-width: 675px) {
+  section.top {
+    flex-direction: row-reverse;
+  }
+
+  nav,
+  div.accns {
+    display: none !important;
+    background-color: red;
+  }
+
+  .hamburger {
+    display: flex !important;
+  }
+}
+
+/* Responsiveness for the main */
+@media only screen and (max-width: 1025px) {
+  section.main #hero-desktop {
+    display: none;
+  }
+
+  section.main #hero-mobile {
+    display: block !important;
+  }
+}
